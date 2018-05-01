@@ -28,14 +28,14 @@
      <id>spring-deploy</id>
  <distributionManagement>
     <repository>
-      <id>myfirst</id>
-      <name>sample</name>
-      <url>http://ec2-54-158-253-169.compute-1.amazonaws.com:8081/nexus/content/repositories/myfirst/</url>
+      <id>spring-releases</id>
+      <name>spring-releases</name>
+      <url>http://ec2-52-90-84-29.compute-1.amazonaws.com:8081/nexus/content/repositories/spring-releases/</url>
     </repository>
     <snapshotRepository>
       <id>spring-snapshots</id>
       <name>spring-snapshots</name>
-      <url>http://ec2-54-158-253-169.compute-1.amazonaws.com:8081/nexus/content/repositories/spring-snapshots/</url>
+      <url>http://ec2-52-90-84-29.compute-1.amazonaws.com:8081/nexus/content/repositories/spring-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </profile>
