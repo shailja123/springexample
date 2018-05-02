@@ -30,12 +30,12 @@
     <repository>
       <id>spring-releases</id>
       <name>spring-releases</name>
-      <url>http://ec2-52-90-84-29.compute-1.amazonaws.com:8081/nexus/content/repositories/spring-releases/</url>
+      <url>http://ec2-54-172-9-146.compute-1.amazonaws.com:8081/nexus/content/repositories/spring-releases/</url>
     </repository>
     <snapshotRepository>
       <id>spring-snapshots</id>
       <name>spring-snapshots</name>
-      <url>http://ec2-52-90-84-29.compute-1.amazonaws.com:8081/nexus/content/repositories/spring-snapshots/</url>
+      <url>http://ec2-54-172-9-146.compute-1.amazonaws.com:8081/nexus/content/repositories/spring-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 </profile>
