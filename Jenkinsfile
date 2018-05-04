@@ -1,3 +1,4 @@
+pipeline{
 env.mvnHome = '/home/ubuntu/maven'
 node() {
   stage(repository){
@@ -14,4 +15,6 @@ node() {
       junit '**/target/surefire-reports/TEST-*.xml'
       archive 'target/*.jar'
    }
+}
+
 }
