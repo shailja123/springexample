@@ -1,5 +1,6 @@
 pipeline{
 agent any
+stages{
   stage(repository){
 	step {
 	    git('https://github.com/shailja123/springexample.git')
@@ -16,7 +17,7 @@ agent any
    stage('Results') {
       junit '**/target/surefire-reports/TEST-*.xml'
       archive 'target/*.jar'
-   }
+            }
 
-
+  }
 }
