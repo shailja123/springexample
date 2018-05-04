@@ -1,13 +1,7 @@
-env.mvnHome = '/home/vagrant/tools/maven'
-node('mslave.example.com') {
+env.mvnHome = '/home/ubuntu/maven'
+node() {
    //def mvnHome
    
-   stage('Preparation') { // for display purposes
-      
-      git 'https://github.com/jglick/simple-maven-project-with-tests.git'
-        
-      //mvnHome = $M3
-   }
    stage('Build') {
       
       if (isUnix()) {
