@@ -1,6 +1,10 @@
 env.mvnHome = '/home/ubuntu/maven'
 node() {
-   //def mvnHome
+  stage(repository){
+	steps{
+	    git('https://github.com/shailja123/springexample.git')
+	  }
+	}
    
    stage('Build') {
       
